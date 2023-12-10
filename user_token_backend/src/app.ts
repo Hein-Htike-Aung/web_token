@@ -13,7 +13,11 @@ import UserRouter from '../src/routes/user.route';
 const app = express();
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'http://localhost:5173'],
+    origin: [
+      'http://localhost:3000',
+      'http://localhost:5173',
+      'http://134.209.101.57',
+    ],
   }),
 );
 app.use(morgan('dev'));
