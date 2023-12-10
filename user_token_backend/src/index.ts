@@ -1,7 +1,7 @@
 import { createServer } from 'http';
 import process from 'node:process';
-import app from './src/app';
-import { sequelize } from './src/models';
+import app from './app';
+import { sequelize } from './models';
 
 const port = process.env.PORT || 8081;
 const server = createServer(app);
