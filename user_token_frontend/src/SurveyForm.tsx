@@ -23,7 +23,7 @@ function SurveyForm({
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/v1/users",
+        "http://134.209.101.57/api/v1/users",
         formData
       );
       onTokenGenerated(response.data.token);
