@@ -1,0 +1,10 @@
+PORT=8080
+
+### DB
+DB_DATABASE="user_token"
+DB_USERNAME="root"
+DB_PASSWORD="root"
+DB_PORT=3306
+DB_HOST="localhost"
+DB_CONNECTION="mysql"
+TZ="+06:30"
