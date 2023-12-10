@@ -11,6 +11,7 @@ label {
 
 input {
   padding: 8px;
+  width: -moz-available;
   margin: 10px 0;
   display: block;
 }
